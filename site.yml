@@ -1,6 +1,5 @@
 ---
 - name: Linux Reboot
-  hosts: 
   gather_facts: no
   become: true
  
