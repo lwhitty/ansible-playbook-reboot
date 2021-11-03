@@ -1,5 +1,5 @@
 ---
-- name: Linux Reboot
+- name: Reboot nodes
   gather_facts: no
   hosts: all
   become: true
