@@ -1,6 +1,7 @@
 ---
 - name: Linux Reboot
   gather_facts: no
+  hosts: all
   become: true
  
   tasks:
